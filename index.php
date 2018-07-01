@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<p>Dans un vrai site et non dans une page web qui contient des multitude de notes sur tout le PHP, il aurait mieux fallu créer des classes css et les ajouter et enlever selon les différentes conditions.</p>
+	<p>Dans un vrai site et non dans une page web qui contient des multitude de notes sur tout le PHP, il aurait mieux fallu créer des classes css et les ajouter et enlever selon les différentes conditions.</p>
 	<?php
 		$cells=""; $line="" ; $table="";
 		for($i=0 ; $i<=9 ; $i++){
@@ -43,5 +43,24 @@
 		echo "<table style='margin:10px auto 0 auto;'>$table</table>" ;
 
 	?>
+
+		<p>La version de Arthur :</p>
+
+		<?php
+			$lol = 0;
+			echo '<table border="1">';
+			for ($r = 0; $r < 10; $r++){
+				echo "<tr>";
+				for ($l = 0; $l < 10; $l++)
+					{
+						echo "<td>$lol</td>";
+						$lol++;
+					}
+				echo '</tr>';
+			}
+			echo '</table>';
+		?>
+
+
 </body>
 </html>
