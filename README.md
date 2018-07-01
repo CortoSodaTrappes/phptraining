@@ -1,2 +1,2 @@
 # phptraining
-Nous sommes une promo et nous nous initialisons au PHP et à GitHub.
+Nous sommes une promo et nous nous initions au PHP et à GitHub.
