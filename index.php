@@ -7,8 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<!--     Dans un vrai site et non dans une page web qui contient des multitude de notes sur tout le PHP, il aurait mieux fallu créer des classes css et les ajouter et enlever selon les différentes conditions.
- -->	
+<p>Dans un vrai site et non dans une page web qui contient des multitude de notes sur tout le PHP, il aurait mieux fallu créer des classes css et les ajouter et enlever selon les différentes conditions.</p>
 	<?php
 		$cells=""; $line="" ; $table="";
 		for($i=0 ; $i<=9 ; $i++){
